@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: #F5F7FA;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.page-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.profile-card {
+  text-align: center;
+  padding: 30px;
+}
+
+.profile-avatar {
+  margin: 0 auto 15px;
+  background-color: #1976D2;
+  font-size: 50px;
+}
+
+.profile-name {
+  margin-bottom: 5px;
+}
+
+.profile-information {
+  text-align: left;
+  margin-top: 25px;
+  line-height: 2;
+}
+
+.about-title {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.description {
+  text-align: left;
+  margin-top: 8px;
+}
+
+.form-title {
+  margin-bottom: 15px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .page-container {
+    margin-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .profile-card {
+    padding: 20px;
+  }
+
+  .form-buttons {
+    flex-direction: column-reverse;
+  }
+
+  .form-buttons button {
+    width: 100%;
+  }
+}
